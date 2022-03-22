@@ -9,8 +9,14 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Hugo 0.88.1" />
-    <title>Cover Template · Bootstrap v5.1</title>
+    <title>jesivasquez.com</title>
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.0/css/all.css"
+      integrity="sha384-eLT4eRYPHTmTsFGFAzjcCWX+wHfUInVWNm9YnwpiatljsZOwXtwV2Hh6sHM6zZD9"
+      crossorigin="anonymous"
+    />
     <link
       rel="canonical"
       href="https://getbootstrap.com/docs/5.1/examples/cover/"
@@ -49,11 +55,13 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/cover.css" rel="stylesheet" />
   </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
+  <body id="home" class="d-flex h-100 text-center text-white bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
-          <h3 class="float-md-start mb-0">Web Design</h3>
+          <h3 class="float-md-start mb-0">
+            <i id="gear" class="fa-solid fa-gear"></i> Web Design</i>
+          </h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="css-examples/index.html">CSS</a>
@@ -67,14 +75,7 @@
         <h1>Jesi Vasquez</h1>
         <p class="lead">
           Hi, I'm Jesi. I'm a web designer who specializes in geovisualization
-          of data with a spatial component. Welcome and have a look around.
-        </p>
-        <p class="lead">
-          <a
-            href="#"
-            class="btn btn-lg btn-secondary fw-bold border-white bg-white"
-            >WORDY</a
-          >
+          of data with a spatial component. Welcome! Please have a look around.
         </p>
       </main>
 
@@ -82,5 +83,9 @@
         <p>Copyright 2022</p>
       </footer>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <script src="assets/js/home.js"></script>
   </body>
 </html>
