@@ -11,7 +11,7 @@ function draw() {
   ellipse(x, y, 25, 25);
   x += xSpeed;
   y += ySpeed;
-  if (x === 0 || x > width) {
+  if (x <= 0 || x > width) {
     xSpeed = -xSpeed;
   }
   if (y <= 0 || y >= height) {
